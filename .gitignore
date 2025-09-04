@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+# Byte-compiled / optimized / DLL files
 *.py[cod]
 *.so
 *.egg
@@ -31,3 +32,6 @@ generated_project/
 # OS files
 .DS_Store
 Thumbs.db
+
+# JetBrains IDE settings
+.idea/
