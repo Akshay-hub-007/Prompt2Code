@@ -31,13 +31,10 @@ Prompt2Code is an AI-powered engineering project generator. It takes natural lan
 - `groq`, `langchain`, `langchain-core`, `langchain-groq`, `langgraph`, `pydantic`, `python-dotenv`
 
 ## Usage
-- Run `main.py` and enter a project prompt (e.g., "Create a Simple Calculator web application...")
-- The agent system will generate code and project files automatically
 
+[![Workflow Graph](image.png)](image.png)
 ## Configuration
 - Set your Groq API key in `.env` (never commit secrets)
-- Python version: 3.13+ (see `.python-version`)
-
 ## IDE Support
 - `.idea/` folder for JetBrains IDEs (PyCharm, etc.)
 - VS Code settings supported via `.vscode/`
