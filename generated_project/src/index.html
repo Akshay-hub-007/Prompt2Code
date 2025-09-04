@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Todo App</h1>
+    </header>
+
+    <section id="input-section">
+        <input id="new-todo" type="text" placeholder="What needs to be done?" autocomplete="off" aria-label="New todo" />
+        <button id="add-todo" aria-label="Add todo">Add</button>
+    </section>
+
+    <ul id="todo-list" class="todo-list" role="list" aria-label="Todo list">
+        <!-- Todo items will be injected here by script.js -->
+    </ul>
+
+    <footer>
+        <div id="filters" role="group" aria-label="Todo filters">
+            <button id="filter-all" aria-label="Show all todos">All</button>
+            <button id="filter-active" aria-label="Show active todos">Active</button>
+            <button id="filter-completed" aria-label="Show completed todos">Completed</button>
+        </div>
+        <span id="remaining-count" aria-live="polite">0 items left</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

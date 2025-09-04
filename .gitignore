@@ -27,7 +27,6 @@ env.bak/
 
 # Node.js build artifacts
 node_modules/
-generated_project/
 
 # OS files
 .DS_Store
